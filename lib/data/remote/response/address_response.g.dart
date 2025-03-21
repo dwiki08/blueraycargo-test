@@ -1,0 +1,81 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'address_response.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+AddressResponse _$AddressResponseFromJson(Map<String, dynamic> json) =>
+    AddressResponse(
+      addressId: (json['address_id'] as num?)?.toInt(),
+      provinceId: (json['province_id'] as num?)?.toInt(),
+      provinceName: json['province_name'] as String?,
+      districtId: (json['district_id'] as num?)?.toInt(),
+      districtName: json['district_name'] as String?,
+      subDistrictId: (json['sub_district_id'] as num?)?.toInt(),
+      subDistrictName: json['sub_district_name'] as String?,
+      cityCode: json['city_code'] as String?,
+      npwpFile: json['npwp_file'] as String?,
+      createdAt: json['created_at'] as String?,
+      updatedAt: json['updated_at'] as String?,
+      deletedAt: json['deleted_at'] as String?,
+      service: json['service'] as String?,
+      addressType: json['address_type'] as String?,
+      addressLabel: json['address_label'] as String?,
+      name: json['name'] as String?,
+      countryName: json['country_name'] as String?,
+      address: json['address'] as String?,
+      postalCode: json['postal_code'] as String?,
+      long: (json['long'] as num?)?.toDouble(),
+      lat: (json['lat'] as num?)?.toDouble(),
+      addressMap: json['address_map'] as String?,
+      email: json['email'] as String?,
+      phoneNumber: json['phone_number'] as String?,
+      phoneNumber2: json['phone_number_2'] as String?,
+      npwp: json['npwp'] as String?,
+      isPrimary: json['is_primary'] as bool?,
+      note: json['note'] as String?,
+      customer: (json['customer'] as num?)?.toInt(),
+      province: (json['province'] as num?)?.toInt(),
+      district: (json['district'] as num?)?.toInt(),
+      subDistrict: (json['sub_district'] as num?)?.toInt(),
+      country: (json['country'] as num?)?.toInt(),
+    );
+
+Map<String, dynamic> _$AddressResponseToJson(AddressResponse instance) =>
+    <String, dynamic>{
+      'address_id': instance.addressId,
+      'province_id': instance.provinceId,
+      'province_name': instance.provinceName,
+      'district_id': instance.districtId,
+      'district_name': instance.districtName,
+      'sub_district_id': instance.subDistrictId,
+      'sub_district_name': instance.subDistrictName,
+      'city_code': instance.cityCode,
+      'npwp_file': instance.npwpFile,
+      'created_at': instance.createdAt,
+      'updated_at': instance.updatedAt,
+      'deleted_at': instance.deletedAt,
+      'service': instance.service,
+      'address_type': instance.addressType,
+      'address_label': instance.addressLabel,
+      'name': instance.name,
+      'country_name': instance.countryName,
+      'address': instance.address,
+      'postal_code': instance.postalCode,
+      'long': instance.long,
+      'lat': instance.lat,
+      'address_map': instance.addressMap,
+      'email': instance.email,
+      'phone_number': instance.phoneNumber,
+      'phone_number_2': instance.phoneNumber2,
+      'npwp': instance.npwp,
+      'is_primary': instance.isPrimary,
+      'note': instance.note,
+      'customer': instance.customer,
+      'province': instance.province,
+      'district': instance.district,
+      'sub_district': instance.subDistrict,
+      'country': instance.country,
+    };
