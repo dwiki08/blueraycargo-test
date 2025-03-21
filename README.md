@@ -28,4 +28,8 @@ Ganti nilai variable di bawah ini dengan API KEY yang dimiliki
     <td><img src="screenshots/Edit-Address.jpg" width="200" alt="Edit Address" /></td>
     <td><img src="screenshots/Edit-Address-2.jpg" width="200" alt="Edit Address" /></td>
   </tr>
+  <tr>
+    <td><img src="screenshots/Map-1.jpg" width="200" alt="Map 1" /></td>
+    <td><img src="screenshots/Map-2.jpg" width="200" alt="Map 2" /></td>
+  </tr>
 </table>
